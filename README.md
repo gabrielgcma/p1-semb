@@ -25,6 +25,12 @@ Um oscilador de cristal ligado em paralelo com as linhas IN e OUT de cada um dos
 
 ![](./imgs/clock.png)
 
+# VDDA
+
+Conectar um ferrite bead (indutor) em série com o VDD que alimenta o VDDA para estabilizar a entrada. O da blackpill é de **1k&Omega; 100 MHz**.
+
+![](./imgs/vdda_ferrite.png)
+
 # Capacitores de desacoplamento
 
 - Os pinos de **VDD** devem estar conectados a VDD com capacitores de desacoplamento externos:
